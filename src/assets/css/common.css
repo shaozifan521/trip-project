@@ -1,0 +1,29 @@
+/* 公共样式 */
+:root {
+  --primary-color: #ff9854;
+
+  /* 全局修改: 任何地方只要用到-van-tabbar-item-icon-size都会被修改掉 */
+  /* --van-tabbar-item-icon-size: 30px !important; */
+}
+
+body {
+  font-size: 14px;
+}
+
+body {
+  font-size: 14px;
+}
+
+/* 隐藏详情页tabbar的样式 */
+.top-page {
+  position: relative;
+  z-index: 9;
+  height: 100vh;
+  background-color: #fff;
+
+  overflow-y: auto;
+}
+
+.bottom-gray-line {
+  border-bottom: 1px solid var(--line-color);
+}
